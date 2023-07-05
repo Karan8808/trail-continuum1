@@ -1,0 +1,42 @@
+.type-container {
+    border: #000000 2px dashed;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.label-container {
+    display: flex;
+    width: 100%;
+    border: #000000 1px solid;
+
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+    margin-left: 50%; /* Adjust the margin as needed */
+    width: 158px;
+    position: relative; /* Add this property to position the datepicker container */
+    left: -2%; /* Add this property to keep the container aligned with the label */
+}
+
+.type {
+    width: fit-content;
+    /* border: #000000 1px solid; */
+    height: 30px;
+    margin-left: 2%;
+    top: 121px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    display: flex;
+    /* align-items: center; */
+
+    color: #000000;
+}

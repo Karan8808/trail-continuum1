@@ -1,0 +1,131 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.frame {
+    /* border: red 1px solid; */
+    white-space: nowrap;
+    margin-left: -100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 290%;
+}
+
+.top {
+    position: relative;
+    width: 50%;
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check {
+    margin-left: -200px;
+}
+
+.item-container {
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #00303d;
+    /* line-height: 19px; */
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 168%;
+    padding: 8px 20px;
+
+    border-radius: .2em;
+    margin-bottom: 10px;
+    
+    background: rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 4px 4px rgba(1, 12, 29, 0.25);
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color:#00303D;
+  
+    white-space: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.requestLeave {
+    background: #00303D;
+    color: white;
+
+    border: none;
+    border-radius: .5rem;
+
+    position: relative;
+    width: 158px;
+    height: 38px;
+
+    white-space: nowrap;
+}
+
+h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color:#00303D;
+  
+    white-space: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.icon {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color:#00303D;
+  
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.content {
+    /* border: #00303D 1px dashed; */
+    display: flex;
+    justify-content: center;
+    
+    padding-bottom: 20px;
+    width: 180%;
+}
+
+.accordionBlock {
+    margin-top: 1%;
+    width: 5%;
+}
+
+.contentAccordion{
+    width: 200%;
+    white-space: normal;
+}

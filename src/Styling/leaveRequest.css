@@ -1,0 +1,56 @@
+.modalCloseButton {
+    background-color: white;
+    border: none;
+    color: red;
+
+    width: auto;
+    padding: 0.2rem;
+    margin-left: 90%;
+    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px; 
+}
+
+button.leaveButton {
+    background-color: #00303d;
+    width: auto;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.2em;
+    cursor: pointer;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin-top: 5%;
+    margin-left: 33%;
+    /* height: fit-content; */
+}
+
+/* pop-up notification */
+.Toastify__toast-container {
+    width: auto;
+    position: fixed;
+    top: 15%; /* Adjust the top position according to your header height */
+    right: 1%;
+  }
+  
+  .Toastify__toast {
+    font-size: 14px;
+  }
+
+  .Toastify__toast--success {
+    background-color: rgb(41, 46, 41);
+    color: #fff;
+  }
+  
+  .Toastify__toast--error {
+    background-color: rgb(68, 57, 57);
+    color: #fff;
+  }

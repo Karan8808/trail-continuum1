@@ -1,0 +1,50 @@
+.parentContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.tableContainer {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* Add this property to ensure equal width for all columns */
+}
+
+.tableContainer th,
+.tableContainer td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  white-space: nowrap; /* Prevent line breaks within cells */
+  overflow: hidden; /* Hide content that exceeds cell width */
+  text-overflow: ellipsis; /* Add ellipsis (...) to indicate truncated content */
+}
+
+.tableContainer th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.tableContainer tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Specify width for each column */
+.tableContainer th:nth-child(1),
+.tableContainer td:nth-child(1) {
+  width: 10%; /* Adjust the width as needed */
+}
+
+.tableContainer th:nth-child(2),
+.tableContainer td:nth-child(2) {
+  width: 30%; /* Adjust the width as needed */
+}
+
+.tableContainer th:nth-child(3),
+.tableContainer td:nth-child(3) {
+  width: 30%; /* Adjust the width as needed */
+}
+
+.tableContainer th:nth-child(4),
+.tableContainer td:nth-child(4) {
+  width: 30%; /* Adjust the width as needed */
+}
